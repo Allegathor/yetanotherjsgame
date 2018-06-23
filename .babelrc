@@ -1,0 +1,25 @@
+{
+
+	"ignore": [
+		"node_modules/**/*"
+	],
+
+	"presets": [
+		"env"
+	],
+
+	"env": {
+
+		"development": {
+			"plugins": [
+				"syntax-dynamic-import"
+			]
+		},
+
+		"production": {
+			"plugins": [
+				"syntax-dynamic-import"
+			]
+		}
+	}
+}
